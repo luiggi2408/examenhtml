@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+background: rgba(217, 207, 207, 0.66);
+}
+/*Contenedor de todo*/
+.container-all{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+padding: 60px;
+
+background: white;
+margin-top: 60px;
+border-top: 6px solid rgba(191, 22, 68, 0.99);
+}
+/*Titulo*/
+.title{
+font-size: 40px;
+margin-bottom: 60px;
+color:#080c74;
+}
+/*Subtitulo*/
+.sub-title{
+font-size: 30px;
+font-weight: 400;
+color:currentColor;
+}
+/*Contenedor de imagen*/
+.container-all img{
+width: 300px;
+float: left;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+/*Contenedor de todas las etiquetas p*/
+.container-all p{
+font-size: 18px;
+font-weight: 300;
+margin-top: 20px;
+}
+/*Contenedor de todas las etiquetas b*/
+.container-all b{
+font-size: 20px;
+color:#080c74;
+font-weight: normal;
+}
+/*Encabezado o Descripción que aparece en el footer, autor y
+derechos*/
+h3{
+color:rgba(249, 249, 27, 0.878);
+}
